@@ -1,0 +1,44 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.optionsright {
+    right: 32px;
+    position: absolute;
+    height: 30px;
+    top: 50%;
+    margin-top: -15px;
+    width: 300px;
+    text-align: right;
+}
+.rodape {
+    text-align: -webkit-center;
+}
+.titulos {
+    padding-bottom: 6px;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: -webkit-center;
+}
+.titlevaga {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.boxItens {
+    border-radius: 10px;
+    box-shadow: -3px 15px 30px 2px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+.logo {
+    width: 1519.2px;
+    text-align: -webkit-center;
+}
+
+.imgLogo {
+    width: 30px;
+}
+
+.barra-navegacao {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}

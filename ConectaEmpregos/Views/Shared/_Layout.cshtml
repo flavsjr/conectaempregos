@@ -9,33 +9,27 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Conecta Empregos</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Achar Vagas <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Publicar Vagas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Cursos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container body-content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:white!important;">
+            <div class="logo">
+                <img src="~/Content/img/icon-emprego.svg" class="imgLogo" />
+                <a class="navbar-brand barra-navegacao" href="#">Conecta Empregos</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="optionsright">
+                    <a href="https://empresa.empregos.com.br/anuncio-de-vaga-emprego.aspx?idAcaoFinal=9870">EMPRESAS</a> |
+                    <a href="https://empresa.empregos.com.br/anuncio-de-vaga-emprego.aspx?idAcaoFinal=9870">CADASTRO</a> |
+                    <a href="https://empresa.empregos.com.br/anuncio-de-vaga-emprego.aspx?idAcaoFinal=9870">LOGIN</a>
+                </div>
+            </div>
+        </nav>
+    <div class="container body-content" style="padding-top: 4%;">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Meu Aplicativo ASP.NET</p>
+        <footer class="rodape">
+            <p>&copy; @DateTime.Now.Year - Conecta Empregos</p>
         </footer>
     </div>
 
