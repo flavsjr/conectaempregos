@@ -1,1 +1,1 @@
-# conectaempregos
+# Aplicação para estudos
