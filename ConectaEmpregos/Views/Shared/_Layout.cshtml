@@ -7,6 +7,10 @@
     <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
+    <link rel="stylesheet" type="text/css" href="~/Content/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
 </head>
 <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:white!important;">
@@ -21,7 +25,7 @@
                 <div class="optionsright">
                     <a href="https://empresa.empregos.com.br/anuncio-de-vaga-emprego.aspx?idAcaoFinal=9870">EMPRESAS</a> |
                     <a href="https://empresa.empregos.com.br/anuncio-de-vaga-emprego.aspx?idAcaoFinal=9870">CADASTRO</a> |
-                    <a href="https://empresa.empregos.com.br/anuncio-de-vaga-emprego.aspx?idAcaoFinal=9870">LOGIN</a>
+                    <a href="@Url.Content("~/")Account/LogOn">LOGIN</a>
                 </div>
             </div>
         </nav>
