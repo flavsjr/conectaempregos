@@ -13,7 +13,7 @@
 
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:white!important;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#4C6983!important;">
             <div class="logo">
                 <img src="~/Content/img/icon-emprego.svg" class="imgLogo" />
                 <a class="navbar-brand barra-navegacao" href="@Url.Content("~/")Home/Index">Conecta Empregos</a>
@@ -29,16 +29,22 @@
                 </div>
             </div>
         </nav>
-    <div class="container body-content" style="padding-top: 4%;">
-        @RenderBody()
-        <hr />
-        <footer class="rodape">
-            <p>&copy; @DateTime.Now.Year - Conecta Empregos</p>
-        </footer>
-    </div>
+        <div class="container body-content" style="padding-top: 4%;">
+            @RenderBody()
+            <hr />
+            <!-- Footer -->
+            <footer class="page-footer font-small special-color-dark pt-4">
+                <!-- Copyright -->
+                <div>
+                    © 2020 - Conecta Empregos</a>
+                </div>
+                <!-- Copyright -->
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+            </footer>
+            <!-- Footer -->
+
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")
+            @RenderSection("scripts", required: false)
 </body>
 </html>

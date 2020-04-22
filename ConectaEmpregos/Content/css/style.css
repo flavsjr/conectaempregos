@@ -19,6 +19,7 @@
     padding-top: 10px;
     font-family: 'Open Sans', sans-serif;
     text-align: -webkit-center;
+    color: #273952;
 }
 .titlevaga {
     font-family: 'Montserrat', sans-serif;
@@ -280,4 +281,8 @@ input {
 
 .submitLink {
     text-align: -webkit-center;
+}
+
+a {
+    color:white;
 }
